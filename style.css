@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f7fe;
+    color: #272142;
+    font-family: "Open Sans";
+}
+
+.container {
+    box-shadow: 0px 30px 50px rgba(30, 20, 53, 0.12);
+    background: white;
+    margin: 50px auto;
+    max-width: 650px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 25px 0;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+h1 {
+    color: #885df1;
+    font-size: 38px;
+    line-height: 48px;
+}
+
+h2 {
+    color: #272142;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin: 1rem 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 1.5rem 0;
+    font-weight: 400;
+    letter-spacing: 0.06rem;
+}
+
+a {
+    color: #885df1;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.description {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 40px;
+}
+
+button {
+    color: white;
+    background-color: #885df1;
+    display: block;
+    border-radius: 50px;
+    margin: 30px auto;
+    width: 90%;
+    font-size: 24px;
+    border: none;
+    font-weight: bold;
+    padding: 15px 30px;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+    transition: all 0.06s ease;
+}
+button:hover {
+    opacity: 90%;
+}
+
+small {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-family: "PT Mono", monospace;
+}
